@@ -1,21 +1,12 @@
-import java.util.Scanner;
 
 public class BMIinformationer {
 
-    //example 1:
-    static Scanner scanner = new Scanner(System.in);
-
-    String navn;
-    String efterNavn;
-    int alder;
     double vægt;
     double højde;
 
 
-    public BMIinformationer(String navn, String efterNavn, int alder, double vægt, double højde) {
-        this.navn = navn;
-        this.efterNavn = efterNavn;
-        this.alder = alder;
+    public BMIinformationer(double vægt, double højde) {
+
         this.vægt = vægt;
         this.højde = højde;
     }
